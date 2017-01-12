@@ -1,0 +1,31 @@
+Program submission requirements
+Whenever you submit a Java program in this course, you need to follow:
+
+READ THIS, REMEMBER THIS, IT WILL BE ENFORCED!!!!
+
+1.  File name matches Class name which starts with uppercase character.
+2.  It compiles with one of the Oracle Java compilers (javac.exe) using JDK5,6,7,or 8.
+3.  Import only java. and javax. classes, or other classes specifically covered in our text
+4.  Never submit specialized IDE specific code (e.g. from NetBeans) as I might run from command line.
+5.  Never submit those //TODO lines that your IDE (e.g. Eclipse) generates and you failed "to do."
+6.  Your name, course, date, and reasons for doing this appear in first few lines (/* comments */)
+7.  More lines of comments, using // style, so every screen has a few comments at all times.
+8.  Proper indent of code as described in textbook, for Class, methods, loops, decisions, etc...
+9.  Classes start with upper case, and object lower case, using reasonably descriptive names.
+10. Good Boolean ZEN, and never let me see while(true) or if(true) as you can do better.
+
+Failure to follow above can only mean one of three things, either you do not understand above, or you did not notice above in your own code, or you just don't care.  Either will result in a lower score than you could achieve.
+
+Class (data structure) Submission Requirements
+Whenever you submit a Java data structure (Class) in this course, you need to follow:
+
+1.  Basics from before:  Program submission requirements  (comments, indents, etc...)
+2.  Data fields listed at top of Class, and they are all private.
+3.  Fields are NOT initialized in these private declarations (a VERY common error <-- don't do).
+4.  Special case are static fields must be initialized, because they can be used without an object (e.g. Math.PI)
+5.  Constructors (that's plural) follow the data field specifications, and those initialize all the fields.
+6.  Always have a default constructor that defines the assumed defaults for all fields (verify if needed).
+7.  No redundant constructor code, so the multiple argument version is used for others with this() calls.
+8.  No redundant method code, so a detailed math formula is in one place, then used by others.
+9.  Accessor methods are grouped together.  Mutators grouped together.  No random placements in Class.
+10. System.out calls (and other extraneous garbage) is commented out or removed, except when required by assignment specifications, which I try very hard to avoid.  A data structure is a data structure, not a program.
