@@ -1,16 +1,16 @@
 import java.text.*;
 
 /*
- *
+ * 
  * Name: Thomas Kent
  * Date: 19 January 2017
  * Course: CS 211
- *
+ * 
  * Sku class
  * Represents a single item in a shop.
  * All items have a name and price
  * Some items also have a bulk price if purchased in certain quantities.
- *
+ * 
  */
 public class Sku {
     // Instance fields
@@ -51,15 +51,15 @@ public class Sku {
 
         double total = 0.0;
         if (_bulkQuantity > 0) {
+            // if the item has a bulk price, use that for as many items as possible
             int numBulks = quantity / _bulkQuantity;
-            quantity -= (numBulks * _bulkQuantity);
+            quantity -= (int) (numBulks * _bulkQuantity); // subtract any items that qualify for bulk pricing
 
             total = (_bulkPrice * numBulks) + (_price * quantity);
-            return total;
-        } else {
-            total = _price * quantity;
-            return total;
-        }
+        } else
+            total = _price * quantity; // total price without any bulk pricing
+
+        return total;
     }
 
     // Override Methods

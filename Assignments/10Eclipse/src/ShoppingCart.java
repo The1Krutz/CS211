@@ -1,20 +1,20 @@
 import java.util.*;
 
 /*
- *
+ * 
  * Name: Thomas Kent
  * Date: 19 January 2017
  * Course: CS 211
- *
+ * 
  * ShoppingCart class
  * Extends ArrayList to represent a collection of items being purchased
- *
+ * 
  */
 @SuppressWarnings("serial")
 public class ShoppingCart extends ArrayList<NumSelected> {
     // Instance fields
-    private double _discount; // discount rate
-    private boolean _isDiscounted; // flag indicating if the discount is to be applied
+    private double _discount;
+    private boolean _isDiscounted;
 
     // Constructor
     public ShoppingCart() {

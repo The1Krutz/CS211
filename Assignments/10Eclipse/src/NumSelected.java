@@ -1,18 +1,18 @@
 
 /*
- *
+ * 
  * Name: Thomas Kent
  * Date: 19 January 2017
  * Course: CS 211
- *
+ * 
  * NumSelected class
  * Represents a single item, in a given quantity in a shopping cart
- *
+ * 
  */
 public class NumSelected {
     // Instance fields
-    private Sku _sku; // type of item in the cart
-    private int _quantity; // number of this item in the cart
+    private Sku _sku;
+    private int _quantity;
 
     // Constructors
     public NumSelected() {
