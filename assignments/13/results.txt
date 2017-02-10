@@ -1,0 +1,11 @@
+50000 items in 37 ms
+100000 items in 37 ms
+250000 items in 87 ms
+500000 items in 148 ms
+1000000 items in 339 ms
+1500000 items in 531 ms
+2000000 items in 743 ms
+2500000 items in 983 ms
+3000000 items in 1216 ms
+3500000 items in 1431 ms
+4000000 items in 1675 ms
