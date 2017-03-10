@@ -190,14 +190,13 @@ public class SearchTree<E extends Comparable<E>> {
     // post: prints the data of the tree, one per line
     public void print() {
         printInorder(overallRoot);
-        System.out.println();
     }
 
     // post: prints the data of the tree using an inorder traversal
     private void printInorder(SearchTreeNode<E> root) {
         if (root != null) {
             printInorder(root.left);
-            System.out.print(root.data + ", ");
+            System.out.print(root.data);
             printInorder(root.right);
         }
     }
