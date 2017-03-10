@@ -2,7 +2,15 @@
 public class q16 {
 
     public static void main(String[] args) {
-        LinkedIntList a = new LinkedIntList();
+LinkedIntList a = new LinkedIntList();
+        a.add(13);
+        a.add(-88);
+        System.out.println(a.isPerfectStutter()); // should be false
+        System.out.println();
+
+
+
+        a = new LinkedIntList();
         a.add(1);
         a.add(1);
         a.add(2);
